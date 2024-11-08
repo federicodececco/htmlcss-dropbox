@@ -56,6 +56,9 @@
 .col {
   flex-grow: 1;
 }
+.boundless {
+  flex-grow: 1;
+}
 /*----------------
     TYPOGRAPHY
 ------------------*/
@@ -110,10 +113,11 @@ header a {
   text-decoration: none;
 }
 header .left,
-.right {
+.rights {
   display: flex;
   align-items: center;
   gap: 20px;
+  max-width: 40%;
 }
 
 /*----------------
@@ -187,7 +191,7 @@ main label {
 
 h3 {
   margin-top: 20px;
-  font-size: 30;
+  font-size: 40px;
 }
 
 .plan .col p {
@@ -251,7 +255,7 @@ h4 {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.enterprise > :first-child{
+.enterprise > :first-child {
   border-bottom: solid lightgrey 1px;
 }
 .enterprise .col.left,
@@ -262,9 +266,30 @@ h4 {
   position: relative;
 }
 .enterprise .col.right .btn.secondary {
-  position:absolute;
+  position: absolute;
   right: 20px;
   top: 20px;
-} /*----------------
+}
+.partner {
+  display: flex;
+  margin-top: 80px;
+}
+.partner .boundless.right {
+  max-width: 40%;
+  padding: 30px;
+  line-height: 1.4;
+}
+.partner .boundless.right h4 {
+  font-size: 25px;
+}
+.partner .boundless.right > p {
+  margin-top: 25px;
+}
+
+.partner .btn {
+  margin-top: 40px;
+  border: solid black 1px;
+}
+/*----------------
     FOOTER
 ------------------*/
