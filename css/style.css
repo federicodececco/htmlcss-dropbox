@@ -179,8 +179,8 @@ main label {
 .container.smol .col {
   border: solid lightgrey 1px;
 }
-.col div:first-child {
-  border-bottom: solid lightgrey 1px;
+
+.user {
   padding: 5px 0;
   text-align: center;
 }
@@ -223,13 +223,48 @@ hr {
   color: grey;
   width: 15%;
 }
-h4{
-  margin-top: 30px ;
+h4 {
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 .check {
   color: #0062ff;
 }
-/*----------------
+.enterprise {
+  margin-top: 60px;
+  border: solid lightgrey 1px;
+  text-align: center;
+}
+.enterprise > :first-child {
+  padding: 5px 0;
+}
+.sub-enterprise {
+  display: flex;
+}
+.enterprise .col.left {
+  max-width: 70%;
+
+  text-align: left;
+  padding: 20px;
+}
+.enterprise h4 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.enterprise > :first-child{
+  border-bottom: solid lightgrey 1px;
+}
+.enterprise .col.left,
+.enterprise .col.right {
+  border: none;
+}
+.enterprise .col.right {
+  position: relative;
+}
+.enterprise .col.right .btn.secondary {
+  position:absolute;
+  right: 20px;
+  top: 20px;
+} /*----------------
     FOOTER
 ------------------*/
