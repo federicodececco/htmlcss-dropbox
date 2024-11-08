@@ -290,6 +290,21 @@ h4 {
   margin-top: 40px;
   border: solid black 1px;
 }
+
+.options {
+  margin-top: 140px;
+}
+.options h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.options .boundless {
+  max-width: calc(100% / 3);
+}
+.row {
+  margin-top: 70px;
+  gap: 20px;
+}
 /*----------------
     FOOTER
 ------------------*/
