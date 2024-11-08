@@ -2,92 +2,123 @@
     DEBUG
 ------------------*/
 .debug .container {
-    border: 2px dashed blueviolet;
+  border: 2px dashed blueviolet;
 }
 
 .debug .row .col {
-    border: 2px dashed lightcoral;
-    background-color: rgba(240, 128, 128, 0.2);
-    min-height: 200px;
+  border: 2px dashed lightcoral;
+  background-color: rgba(240, 128, 128, 0.2);
+  min-height: 200px;
 }
 
 /*----------------
     RESET
 ------------------*/
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /*----------------
     COMMONS
 ------------------*/
 .img-fluid {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /*----------------
     LAYOUT
 ------------------*/
 .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    /* padding-left: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 20px;
     padding-right: 20px; */
 }
 
 .row {
-    display: flex;
+  display: flex;
 }
 
 .gap-10 {
-    gap: 10px;
+  gap: 10px;
 }
 .gap-20 {
-    gap: 20px;
+  gap: 20px;
 }
 .gap-30 {
-    gap: 30px;
+  gap: 30px;
 }
 
 .col {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 /*----------------
     TYPOGRAPHY
 ------------------*/
 body {
-    font-family: "Roboto", serif;
+  font-family: "Roboto", serif;
 }
 
 /*----------------
     BUTTONS
 ------------------*/
 .btn {
-    background-color: transparent;
-    font-family: inherit;
-    border: none;
-    padding: 6px 12px;
-    cursor: pointer;
+  background-color: transparent;
+  font-family: inherit;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
 }
 
 .btn-large {
-    padding: 10px 20px;
-    font-size: 16px;
+  padding: 10px 20px;
+  font-size: 16px;
 }
 
 .btn-primary {
-    background-color: lightcoral;
-    color: #fff;
+  background-color: lightcoral;
+  color: #fff;
 }
 
 /*----------------
     HEADER
 ------------------*/
-
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  font-size: 16px;
+}
+header ul {
+  list-style-type: none;
+}
+header li {
+  float: left;
+  padding: 0px 8px;
+}
+header a {
+  text-decoration: none;
+}
+header .left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .btn {
+  font-size: 16px;
+  padding: 8px 12px;
+}
+header .btn:first-of-type {
+}
+header .btn:last-of-type {
+  background-color: #0061fe;
+  color: white;
+}
 /*----------------
     MAIN
 ------------------*/
