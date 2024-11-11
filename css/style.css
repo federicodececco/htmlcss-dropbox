@@ -95,6 +95,23 @@ body {
   color: white;
 }
 
+
+input {
+  appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  color: blue;
+  border: 2px solid #999;
+  transition: 0.2s ease;
+ 
+}
+input:checked {
+  border: 5px solid blue;
+}
+
+
 /*----------------
     HEADER
 ------------------*/
@@ -332,6 +349,7 @@ footer {
   background-color: black;
   color: white;
   padding-bottom: 40px;
+  margin-top: 80px;
 }
 footer h4 {
   font-size: 20px;
@@ -352,7 +370,7 @@ footer hr {
   width: 10%;
   border: solid lightgrey 1px;
 }
-footer :last-child{
+footer :last-child {
   margin-top: 20px;
   font-size: 14px;
 }
