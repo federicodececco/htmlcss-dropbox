@@ -228,7 +228,6 @@ h3 {
   font-size: 40px;
 }
 
-
 .plan .col p {
   padding-top: 20px;
 }
@@ -241,7 +240,8 @@ h3 {
 }
 .top,
 .bot {
-  padding-left: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .col ul {
   line-height: 1.5;
@@ -263,7 +263,10 @@ h3 {
 }
 .top div:nth-last-of-type(2) {
   margin: 60px 0;
+  text-align: center;
+  background-color: #0061fe;
 }
+
 .top div:last-of-type {
   margin: 60px 0;
 }
@@ -286,7 +289,7 @@ h4 {
 }
 .enterprise > :first-child {
   padding: 5px 0;
-  padding:10px 0;
+  padding: 10px 0;
 }
 .sub-enterprise {
   display: flex;
