@@ -117,9 +117,8 @@ label {
     HEADER
 ------------------*/
 
-header a{
+header a {
   color: black;
-
 }
 
 header {
@@ -127,7 +126,7 @@ header {
   justify-content: space-between;
   padding: 20px 10px;
   font-size: 16px;
-  background-color:#fff;
+  background-color: #fff;
   position: sticky;
   top: 0;
   left: 0;
@@ -188,12 +187,10 @@ h1:first-of-type {
 .hero .btn.secondary {
   margin: 30px 0;
 }
-.cancel {
-}
 
 .arrow {
   font-size: 50px;
-  margin-top: 28%
+  margin-top: 28%;
 }
 hr {
   color: #f5f5f5;
@@ -223,6 +220,7 @@ main label {
 .user {
   padding: 5px 0;
   text-align: center;
+  border-bottom: solid lightgrey 1px;
 }
 
 h3 {
